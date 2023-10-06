@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import styled from "styled-components";
 import { useCoursesContext } from '../context/courses_context';
-import StarRating from '../components/StarRating';
 import {MdInfo} from "react-icons/md";
 import {TbWorld} from "react-icons/tb";
 import {FaShoppingCart} from "react-icons/fa";
@@ -37,7 +36,6 @@ const SingleCoursePage = () => {
             <p className='course-para fs-18'>{description}</p>
             <div className='course-rating flex'>
               <span className='rating-star-val fw-8 fs-16'>{rating_star}</span>
-              <StarRating rating_star={rating_star} />
               <span className='rating-count fw-5 fs-14'>({rating_count})</span>
               <span className='students-count fs-14'>{students}</span>
             </div>
