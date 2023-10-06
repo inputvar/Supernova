@@ -6,6 +6,7 @@ import Sidebar from "./components/Sidebar";
 import MentalHealth from "./pages/MentalHealth";
 import ConnectVideo from "./components/ConnectVideo";
 import Form from "./pages/Form";
+import EBooks from "./components/EBooks";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/mentalHealth" element={<MentalHealth />} />
         <Route path="/connect" element={<ConnectVideo />} />
+        <Route path="/books" element={<EBooks />} />
         <Route path="/form" element={<Form />} />
       </Routes>
     </BrowserRouter>

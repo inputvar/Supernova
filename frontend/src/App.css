@@ -30,6 +30,7 @@ body {
   line-height: 1.6;
   font-family: var(--base-font);
   color: var(--clr-black);
+  background-color:#f8f9fb;
 }
 ul {
   list-style-type: none;
@@ -420,4 +421,33 @@ button1:focus {
 
 button1 svg {
   margin-right: 5px;
+}
+.card{
+  margin: 5%;
+  border-radius: 0%;
+}
+
+.ebookSection{
+  margin-top: 3%;
+  margin-left: 11%;
+}
+
+.ebooksCards{
+  padding: 1% 10% 2% 10%;
+}
+
+.card-title{
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 800;
+}
+
+.btn-outline-dark{
+  border-radius: 0%;
+  margin-top: 12px;
+  margin-right: 5%;
+}
+
+.cart_btns{
+  display: flex;
 }
