@@ -3,8 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, SingleCourse, Cart, Courses } from "./pages";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
-import MentalHealth from "./components/MentalHealth";
+import MentalHealth from "./pages/MentalHealth";
 import ConnectVideo from "./components/ConnectVideo";
+import Form from "./pages/Form";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/mentalHealth" element={<MentalHealth />} />
         <Route path="/connect" element={<ConnectVideo />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </BrowserRouter>
   );
