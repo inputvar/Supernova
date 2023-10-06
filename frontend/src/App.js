@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar";
 import MentalHealth from "./components/MentalHealth";
 import ConnectVideo from "./components/ConnectVideo";
 import EBooks from "./components/EBooks";
-
+import Recommend from "./components/recommend";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses/:id" element={<SingleCourse />} />
+        <Route path="/courses/Recommend" element={<Recommend/>} />
         <Route path="/category/:category" element={<Courses />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/mentalHealth" element={<MentalHealth />} />
