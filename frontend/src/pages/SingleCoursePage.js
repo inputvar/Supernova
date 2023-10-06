@@ -9,6 +9,7 @@ import {RiClosedCaptioningFill} from "react-icons/ri";
 import {BiCheck} from "react-icons/bi";
 import {Link} from "react-router-dom";
 import { useCartContext } from '../context/cart_context';
+import Footer from '../components/Footer'
 
 const SingleCoursePage = () => {
   const {id} = useParams();
@@ -107,7 +108,7 @@ const SingleCoursePage = () => {
         </div>
       </div>
     </SingleCourseWrapper>
-  )
+    )
 }
 
 const SingleCourseWrapper = styled.div`
