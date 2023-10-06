@@ -332,3 +332,35 @@ select {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 } */
 
+
+.card{
+  margin: 5%;
+  border-radius: 0%;
+  border: solid black 1px
+}
+
+.ebookSection{
+  margin-top: 3%;
+  margin-left: 11%;
+}
+
+.ebooksCards{
+  padding: 1% 10% 2% 10%;
+}
+
+.card-title{
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 800;
+}
+
+.btn-outline-dark{
+  border-radius: 0%;
+  margin-top: 12px;
+  margin-right: 5%;
+}
+
+.cart_btns{
+  display: flex;
+  
+}

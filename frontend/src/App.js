@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import MentalHealth from "./components/MentalHealth";
 import ConnectVideo from "./components/ConnectVideo";
+import EBooks from "./components/EBooks";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/mentalHealth" element={<MentalHealth />} />
         <Route path="/connect" element={<ConnectVideo />} />
+        <Route path="/books" element={<EBooks />} />
       </Routes>
     </BrowserRouter>
   );
