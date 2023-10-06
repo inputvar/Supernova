@@ -1,11 +1,9 @@
-import React from "react";
-import Cart from "./Cart";
+import React from 'react'
 
-const MentalHealth = () => {
+function MentalHealth() {
   return (
-    <div>
-    </div>
-  );
-};
+    <div>MentalHealth</div>
+  )
+}
 
-export default MentalHealth;
+export default MentalHealth

@@ -1,14 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import { MdMenu, MdShoppingCart } from "react-icons/md";
+// import { MdMenu } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { useSidebarContext } from "../context/sidebar_context";
-import { useCartContext } from "../context/cart_context";
+// import { useSidebarContext } from "../context/sidebar_context";
+// import { useCartContext } from "../context/cart_context";
 import MentalHealth from "./MentalHealth";
 
 const Navbar = () => {
-  const { total_items } = useCartContext();
-  const { openSidebar } = useSidebarContext();
+  // const { openSidebar } = useSidebarContext();
 
   return (
     <NavbarWrapper className="bg-white flex">
@@ -35,12 +34,12 @@ const Navbar = () => {
               <MdShoppingCart />
               <span className="item-count-badge">{total_items}</span>
             </Link> */}
-            <button
+            {/* <button
               type="button"
               className="sidebar-open-btn"
               onClick={() => openSidebar()}>
               <MdMenu />
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
