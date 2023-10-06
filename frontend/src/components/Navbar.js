@@ -4,7 +4,7 @@ import { MdMenu, MdShoppingCart } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { useSidebarContext } from "../context/sidebar_context";
 import { useCartContext } from "../context/cart_context";
-import MentalHealth from "./MentalHealth";
+import MentalHealth from "../pages/MentalHealth";
 
 const Navbar = () => {
   const { total_items } = useCartContext();
