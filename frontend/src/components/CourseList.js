@@ -19,18 +19,98 @@ import volleyballImage from '../images/courses/volleyball.jpeg';
 const CourseList = () => {
   // const {courses} = useCoursesContext();
   const courseData = [
-    { title: 'Baking', image: bakingImage },
-    { title: 'Cooking', image: cookingImage },
-    { title: 'Gym', image: gymImage },
-    { title: 'Instruments', image: instrumentsImage },
-    { title: 'Language 1', image: language1Image },
-    { title: 'Language', image: languageImage },
-    { title: 'Literature 1', image: literature1Image },
-    { title: 'Literature', image: literatureImage },
-    { title: 'Painting', image: paintingImage },
-    { title: 'Singing', image: singingImage },
-    { title: 'Volleyball', image: volleyballImage },
+    {
+      title: 'Mastering Public Speaking',
+      description: 'Build confidence, conquer stage fright, deliver powerful speeches.',
+      filterType: 'Public Speaking',
+    },
+    {
+      title: 'Presentation Mastery',
+      description: 'Engage, influence through persuasive speeches, informative presentations.',
+      filterType: 'Public Speaking',
+    },
+    {
+      title: 'Storytelling for Impact',
+      description: 'Craft narratives connecting with a lasting impression.',
+      filterType: 'Public Speaking',
+    },
+    {
+      title: 'Total Fitness Transformation',
+      description: 'Achieve fitness goals, workouts, nutrition tips for a healthier you.',
+      filterType: 'Physical Health',
+    },
+    {
+      title: 'Yoga for Wellness',
+      description: 'Discover yoga benefits, poses, mindfulness for well-being.',
+      filterType: 'Physical Health',
+    },
+    {
+      title: 'Nutrition Essentials',
+      description: 'Understand nutrition, make balanced, healthier diet choices.',
+      filterType: 'Physical Health',
+    },
+    {
+      title: 'Classic Literature Explorations',
+      description: 'Journey through timeless literary works, novels, poetry, plays.',
+      filterType: 'Literature',
+    },
+    {
+      title: 'Creative Writing Workshop',
+      description: 'Unleash creativity with guided writing, storytelling skills.',
+      filterType: 'Literature',
+    },
+    {
+      title: 'Literature Analysis and Critique',
+      description: 'Hone critical thinking, analyze literary texts, explore themes.',
+      filterType: 'Literature',
+    },
+    {
+      title: 'Effective Business Communication',
+      description: 'Enhance professional communication, master email etiquette, workplace skills.',
+      filterType: 'Communication Skills',
+    },
+    {
+      title: 'Persuasive Communication Techniques',
+      description: 'Learn persuasion, explore strategies to influence and convince effectively.',
+      filterType: 'Communication Skills',
+    },
+    {
+      title: 'Nonverbal Communication Mastery',
+      description: 'Understand nonverbal cues, improve body language, facial expressions.',
+      filterType: 'Communication Skills',
+    },
+    {
+      title: 'Web Content Writing for Beginners',
+      description: 'Start content writing journey, craft engaging web content, blog posts.',
+      filterType: 'Content Writing',
+    },
+    {
+      title: 'SEO Writing Strategies',
+      description: 'Write SEO content, explore keyword research, on-page optimization.',
+      filterType: 'Content Writing',
+    },
+    {
+      title: 'Creative Writing for Marketing',
+      description: 'Combine creativity, create persuasive marketing content.',
+      filterType: 'Content Writing',
+    },
+    {
+      title: 'Introduction to Acrylic Painting',
+      description: 'Explore acrylic painting, learn basic techniques, color theory.',
+      filterType: 'Hobbies',
+    },
+    {
+      title: 'Sculpting with Clay',
+      description: 'Get hands-on with clay sculpting, craft sculptures, pottery.',
+      filterType: 'Hobbies',
+    },
+    {
+      title: 'Digital Art and Illustration',
+      description: 'Dive into digital art, master illustration techniques.',
+      filterType: 'Hobbies',
+    },
   ];
+  
 
   return (
     <CoursesListWrapper>
@@ -49,10 +129,10 @@ const CourseList = () => {
           {courseData.map((course, index) => (
             <div className="col" key={index}>
               <div className="card">
-                <img src={course.image} className="card-img-top" alt={course.title} />
+                <img src={bakingImage} className="card-img-top" alt={course.title} />
                 <div className="card-body">
                   <h5 className="card-title">{course.title}</h5>
-                  <p className="card-text">Description of the course goes here.</p>
+                  <p className="card-text">{course.description}</p>
                   <a href="#" className="btn btn-outline-dark btn-lg">Learn More</a>
                 </div>
               </div>
