@@ -18,19 +18,23 @@ const Navbar = () => {
             PrisonELearn
           </Link>
 
-          <Link to="/mentalHealth" className="navbar-brand">
+          <Link to="/mentalHealth" className="navbar navItem">
             Mental Health
           </Link>
 
-          <Link to="/books" className="navbar-brand">
+          <Link to="/books" className="navbar navItem">
             E-Books
+          </Link>
+          
+          <Link to="/connect" className="navbar navItem">
+            Connect
           </Link>
 
           <div className="navbar-btns flex">
-            <Link to="/cart" className="cart-btn">
+            {/* <Link to="/cart" className="cart-btn">
               <MdShoppingCart />
               <span className="item-count-badge">{total_items}</span>
-            </Link>
+            </Link> */}
             <button
               type="button"
               className="sidebar-open-btn"

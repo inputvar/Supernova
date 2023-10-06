@@ -322,12 +322,13 @@ select {
   transition: none !important;
 }
 
-.navItem {
-  display: flex;
-  justify-content: flex-end;
-}
+/* .navItem {
+  font-size: 1px;
+  color: #a435f0;
+} */
 
-.card {
+/* .card {
   margin: 100px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
+

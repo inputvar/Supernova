@@ -1,1 +1,1 @@
-# Supernovas
+# Supernova
