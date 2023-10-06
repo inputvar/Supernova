@@ -1,8 +1,9 @@
 import React from "react";
+import English from '../book_pdfs/mental_health.pdf'
+import hindi from '../book_pdfs/mental_health_hindi.pdf'
 
 const Cart = ({imagePath, index, bookTitle}) => {
 
-  const bookImgPath = ""
   return  <div>
   <div class="col">
   <div className="card" style={{ height: "600px"}}>
@@ -10,8 +11,8 @@ const Cart = ({imagePath, index, bookTitle}) => {
     <div className="card-body">
       <h5 className="card-title">{bookTitle}</h5>
       <div className="cart_btns">
-      <a href={bookImgPath} className="btn btn-outline-dark btn-lg">English</a>
-      <a href={bookImgPath} className="btn btn-outline-dark btn-lg">हिन्दी</a>
+      <a href={English} className="btn btn-outline-dark btn-lg">English</a>
+      <a href={hindi} className="btn btn-outline-dark btn-lg">हिन्दी</a>
     </div></div>
   </div>
   </div>

@@ -30,6 +30,7 @@ body {
   line-height: 1.6;
   font-family: var(--base-font);
   color: var(--clr-black);
+  background-color:#f8f9fb;
 }
 ul {
   list-style-type: none;
@@ -336,7 +337,6 @@ select {
 .card{
   margin: 5%;
   border-radius: 0%;
-  border: solid black 1px
 }
 
 .ebookSection{
@@ -362,5 +362,4 @@ select {
 
 .cart_btns{
   display: flex;
-  
 }

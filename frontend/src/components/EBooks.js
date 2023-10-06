@@ -54,7 +54,7 @@ function EBooks() {
   return (
     <div>
     <h1 className='fw-7 ebookSection'>READ, पढ़ने के लिए</h1>
-    <div className='ebooksCards row row-cols-3 row-cols-md-4 g-4'>
+    <div className='ebooksCards row row-cols-1 row-cols-md-4 g-4'>
     {imagePaths.map((imagePath, index) => (
         <Cart imagePath={imagePath} index={index} bookTitle={returnBookTitle(bookTitles, index)}/>
     ))}
