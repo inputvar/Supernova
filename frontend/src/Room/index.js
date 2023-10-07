@@ -13,7 +13,7 @@ const RoomPage = () => {
       serverSecret,
       roomId,
       Date.now().toString(),
-      "Piyush Garg"
+      "John Doe"
     );
     const zc = ZegoUIKitPrebuilt.create(kitToken);
     zc.joinRoom({
@@ -32,9 +32,9 @@ const RoomPage = () => {
   };
 
   return (
-    <div>
-      <div ref={myMeeting}></div>
-    </div>
+      <div style={{ height: "90vh" }}>
+       <div ref={myMeeting} style={{ height: "100%" }}></div>
+     </div>
   );
 };
 
