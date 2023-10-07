@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="container w-100">
         <div className="brand-and-toggler flex flex-between w-100">
           <Link to="/" className="navbar-brand text-uppercase ls-1 fw-8">
-            PrisonELearn
+            SUPERNOVA
           </Link>
 
           <Link to="/mentalHealth" className="navbar navItem">
