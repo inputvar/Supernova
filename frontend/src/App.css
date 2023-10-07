@@ -451,3 +451,69 @@ button1 svg {
 .cart_btns{
   display: flex;
 }
+
+.findOut{
+  margin-left: 12px;
+}
+
+
+.weird-unique-1 {
+  background-color: #f8f9fa;
+}
+
+/* Container styling */
+.weird-unique-2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 00;
+  margin: 6% auto;
+}
+
+/* Header styles */
+.weird-unique-3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Question styles */
+.weird-unique-4 > p {
+  font-size: 16px;
+  margin-top: 18px;
+}
+
+/* Radio button label styles */
+.weird-unique-5 label {
+  display: inline-block;
+  margin: 20px;
+  font-weight: normal;
+  padding-bottom: 50%;
+}
+
+/* Submit button styles */
+.weird-unique-6 button[type="submit"] {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Result message styles */
+.weird-unique-7 p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Footer styles */
+.weird-unique-8 footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
