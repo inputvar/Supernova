@@ -11,14 +11,15 @@ const HomePage = () => {
   }, [navigate, value]);
 
   return (
-    <div>
+    <div className="meetDeet">
       <input
+      className="meetCode"
         value={value}
         onChange={e => setValue(e.target.value)}
         type="text"
         placeholder="Enter Room Code"
       />
-      <button onClick={handleJoinRoom}>Join</button>
+      <button className="btn btn-outline-dark btn-lg meetBtn" onClick={handleJoinRoom}>Join</button>
     </div>
   );
 };

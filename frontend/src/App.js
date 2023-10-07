@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, SingleCourse, Cart } from "./pages";
 import Navbar from "./components/Navbar";
 import MentalHealth from "./components/MentalHealth";
-import ConnectVideo from "./components/ConnectVideo";
+
 import Form from "./pages/Form";
 import EBooks from "./components/EBooks";
 import Recommend from "./components/Recommend";

@@ -8,8 +8,8 @@ const Hero = () => {
     <HeroWrapper className = "bg-black">
       <div className='container h-100 flex'>
         <div className='hero-content'>
-          <h1>Got no Idea?</h1>
-          <p>Take a quiz now <Link to="recommend" className='btn btn-lg btn-outline-dark findOut' > Find out </Link></p>
+          <h1 style={{"font-weight":"bolder"}}>Got no Idea?</h1>
+          <p style={{"font-weight":"bolder"}}>Take a quiz now <Link style={{"font-weight":"bold", "font-size":"medium"}} to="recommend" className='btn btn-lg btn-outline-dark findOut' > Find out </Link></p>
         </div>
       </div>
     </HeroWrapper>

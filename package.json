@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@zegocloud/zego-uikit-prebuilt-live-streaming-rn": "^2.1.0"
+  }
+}

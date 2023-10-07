@@ -569,3 +569,27 @@ button1 svg {
   margin-bottom: 12vh;
   border-radius: 0;
 }
+
+.meetBtn{
+  padding: 10px 30px;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.meetDeet{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meetCode{
+  margin-right: 5vh;
+  padding: 0 30px 10px 30px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 0;
+  border-bottom: solid black 2px;
+  background-color: #f8f9fb;
+}
