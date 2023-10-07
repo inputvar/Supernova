@@ -593,3 +593,29 @@ button1 svg {
   border-bottom: solid black 2px;
   background-color: #f8f9fb;
 }
+
+.timerBody{
+  background-color: #fff;
+  border-radius: 0;
+  border: none;
+  padding: 8%
+}
+
+.btn-dark{
+  border-radius: 0;
+  margin: 5% 2%;
+
+}
+
+.btn-dark:hover{
+  border: solid black 1px;
+  background: #fff;
+  color: #000;
+}
+
+.timerDuration{
+  font-size: smaller;
+  padding: 2% 5%;
+  border-radius: 0%;
+  margin-bottom: 5%;
+}

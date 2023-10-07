@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import courseData from './courseData';
 import './udemy-theme.css'; // Import the custom Udemy-themed CSS
 
 class Recommend extends Component {
@@ -114,7 +116,27 @@ class Recommend extends Component {
           <div>{submitted && (
             <p className="weird-unique-7">Recommended Courses: {recommendedSkill}</p> /* Apply unique class name for the result message */
           )}</div>
-          <footer className="weird-unique-8">
+          <footer className="courseFilter">
+          {courseData.filter((course) => course.filterType === recommendedSkill).length > 0 ? (
+  courseData.map((course) =>
+    course.filterType === recommendedSkill ? (
+      <div className="card" key={course.title}>
+        <img src={course.image} className="card-img-top" alt={course.title} />
+        <div className="card-body">
+          <h5 className="card-title">{course.title}</h5>
+          <p className="card-text">{course.description}</p>
+          <Link to="/coursePage" className="btn btn-outline-dark btn-lg">
+            Learn More
+          </Link>
+        </div>
+      </div>
+    ) : null
+  )
+) : (
+  submitted &&
+  <h1>Sorry, no courses that match your interests</h1>
+)}
+
           </footer>
         </div>
       </div>

@@ -1,8 +1,9 @@
 import React from 'react'
+import Timer from './Timer'
 
 function MentalHealth() {
   return (
-    <div>MentalHealth</div>
+    <div><Timer /> </div>
   )
 }
 
