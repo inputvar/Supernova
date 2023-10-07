@@ -515,7 +515,33 @@ button1 svg {
 .weird-unique-8 footer {
   text-align: center;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 14px;
+}
+
+.courseContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courseHeader{
+  font-weight: 800;
+  font-size: 32px;
+  margin: 10vh auto 4vh auto;
+}
+
+.courseImage{
+  max-width: 1000px;
+  padding: 18px;
+}
+
+.courseDeetsParent{
+  background: #fff;
+  width: 100%;
+  max-width: 954px;
+  padding: 38px;
+  margin-bottom: 12vh;
+  border-radius: 0;
 }
 
 .courseContainer{
