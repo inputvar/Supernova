@@ -60,7 +60,7 @@ class CountdownTimer extends Component {
     return (
       <div className="container mt-5">
         <div className="d-flex justify-content-center align-items-center square-form">
-          <div className="card bg-warning" style={{"border":"none"}}>
+          <div className="card" style={{"border":"none"}}>
             <div className="card-body timerBody">
               <h2 className="mb-4">Countdown Timer</h2>
               <p>Duration: {this.state.duration} seconds</p>
@@ -75,7 +75,7 @@ class CountdownTimer extends Component {
               </div>
               {!this.state.running ? (
                 <button
-                  className="btn btn-md btn-dark"
+                  className="btn btn-md btn-dark  fs-18 fw-900"
                   onClick={() => this.startTimer()}
                 >
                   Start Timer
@@ -83,13 +83,13 @@ class CountdownTimer extends Component {
               ) : (
                 <div>
                   <button
-                    className="btn btn-outline-dark" style={{"margin-top":"0"}}
+                    className="btn btn-outline-dark fs-18 fw-900" style={{"margin-top":"0"}}
                     onClick={() => this.stopTimer()}
                   >
                     Stop Timer
                   </button>
                   <button
-                    className="btn btn-dark ml-2"
+                    className="btn btn-dark ml-2 fs-18 fw-900"
                     onClick={() => this.stopBoth()}
                   >
                     Stop Both

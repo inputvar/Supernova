@@ -598,7 +598,10 @@ button1 svg {
   background-color: #fff;
   border-radius: 0;
   border: none;
-  padding: 8%
+  padding: 8%;
+  height: 30vh;
+  width: 40vh;
+  margin-left: -40px;
 }
 
 .btn-dark{
@@ -614,7 +617,7 @@ button1 svg {
 }
 
 .timerDuration{
-  font-size: smaller;
+  font-size: medium;
   padding: 2% 5%;
   border-radius: 0%;
   margin-bottom: 5%;
